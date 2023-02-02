@@ -1,0 +1,27 @@
+.navbar{
+   width:100%;
+   position:absolute;
+   top:0;
+   left:0;
+   height:90px;
+   background-color:#000000f3;
+   border:6px black solid;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.icon{
+    font-size: 40px;
+    text-decoration: none;
+}

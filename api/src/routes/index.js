@@ -1,11 +1,11 @@
-const { Router } = require('express');
+const express = require('express');
 
-const userRoutes = require('./userRoute')
+const userRoutes = require('./userRoutes')
 
 // import all controllers
 // import SessionController from './app/controllers/SessionController';
 
-const routes = new Router();
+const routes = express.Router();
 
 // Add routes
 routes.use('/user', userRoutes);

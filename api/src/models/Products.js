@@ -19,21 +19,25 @@ module.exports = (sequelize) => {
         type: DataTypes.FLOAT,
         allowNull: false,
     },
-    precio: {
+    price: {
       type: DataTypes.FLOAT,
-      allowNull: false,
+      allowNull: true,
     },
-    consolas: {
+    platforms: {
         type: DataTypes.ARRAY(DataTypes.STRING),
         allowNull: false
     },
-    lanzamiento: {
+    publishers: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    Stock: {
+    stock: {
       type: DataTypes.TEXT,
-      allowNull:true
+      allowNull: true
+    },
+    genres: {
+        type: DataTypes.ARRAY(DataTypes.TEXT),
+        allowNull: false
     },
   },{ timestamps: false });
 };

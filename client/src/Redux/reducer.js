@@ -1,17 +1,24 @@
-import {GET_ALL_VIDEOJUEGOS} from './action'
+import {GET_ALL_VIDEOGAME, GET_NAME} from './action'
+
 
 const initialState = {
-    videoJuegos: [],
-	allVideoJuegos:[]
+    videogames: [],
+	allVideogames:[]
 }
 
 const rootReducer = (state = initialState, action) => {
 	switch (action.type) {
-		case GET_ALL_VIDEOJUEGOS: return {
+		case GET_ALL_VIDEOGAME: 
+        return {
             ...state,
-            videoJuegos: action.payload,
-            allVideoJuegos: action.payload,
+            videogames: action.payload,
+            allVideogames: action.payload,
         };
+        case GET_NAME:
+            return{
+                ...state,
+                videogames: action.payload,
+            }
         default:
 			return state;
 	}

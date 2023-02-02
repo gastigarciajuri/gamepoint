@@ -11,6 +11,9 @@ module.exports = (sequelize) => {
       primaryKey: true,
       allowNull: false
     },
+    image: {
+      type: DataTypes.ARRAY(DataTypes.TEXT)
+    },
     name: {
       type: DataTypes.STRING,
       allowNull: false
@@ -34,10 +37,6 @@ module.exports = (sequelize) => {
     stock: {
       type: DataTypes.TEXT,
       allowNull: true
-    },
-    genres: {
-        type: DataTypes.ARRAY(DataTypes.TEXT),
-        allowNull: false
     },
   },{ timestamps: false });
 };

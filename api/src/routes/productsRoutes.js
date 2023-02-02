@@ -1,5 +1,7 @@
 const { Router } = require ('express');
-const {Products, Reviws} = require("../db")
+const axios = require('axios');
+const {Products, Reviews} = require("../db");
+const Genres = require('../models/Genres');
 
 const router = new Router();
 
@@ -38,7 +40,7 @@ router.get('/:id', async (req, res, next) => {
     try {
         const {id} =req.params
         let products = await Products.findAll({
-            include: Reviws,    
+            include: Reviews,    
         })  
         let find = products.find(p => p.id === id)  
         res.status(200).send(find)
@@ -48,16 +50,16 @@ router.get('/:id', async (req, res, next) => {
 })
 
 router.post('/add', async (req, res, next) => {
-    const{name, rating, price, platforms, publishers, stock, genres} = req.body;
+    const{image, name, rating, price, platforms, publishers, stock} = req.body;
     try {
         let newProduct = await Activity.create({
             name,
+            image,
             rating,
             price,
             platforms,
             publishers,
             stock,
-            genres
         })
         
         res.status(200).send(newProduct)

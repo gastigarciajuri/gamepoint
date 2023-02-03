@@ -22,7 +22,7 @@ export default function SearchBar() {
   return (
     <div className="searchbar">
       <button type="submit"  onClick={(e) => handleSubmit(e)} className="button">
-        <SearchIcon className='iconS' />
+        <SearchIcon  style={{ fontSize:65 }} />
       </button>
       <input
         type="text"

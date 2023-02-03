@@ -1,0 +1,128 @@
+.container{
+    width:550px;
+    position:absolute;
+    top:20%;
+    left:30%;
+    height:800px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border:4px black solid;
+}
+
+.title{
+font-size: 35px;
+color: white;
+position: absolute;
+left:16%;
+top:1%;
+}
+
+.name{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left:8%;
+    top:10%;
+}
+
+.email{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left:8%;
+    top:25%;
+}
+
+.phone{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left:8%;
+    top:40%;
+}
+
+.message{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left:8%;
+    top:55%;
+}
+
+.inputName{
+    position: absolute;
+    width: 455px;
+    height: 55px;
+    top:15%;
+    left:8%;
+    font-size: 22px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
+
+.inputEmail{
+    position: absolute;
+    width: 455px;
+    height: 55px;
+    top:30%;
+    left:8%;
+    font-size: 22px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
+.inputNumber{
+    position: absolute;
+    width: 455px;
+    height: 55px;
+    top:45%;
+    left:8%;
+    font-size: 22px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
+.inputMessage{
+    position: absolute;
+    width: 455px;
+    height: 150px;
+    top:60%;
+    left:8%;
+    font-size: 22px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
+
+.btn_back{
+    position: absolute;
+    top: 85%;
+    left: 14%;
+    background-color: rgba(0, 0, 0, 0.363);
+    border: 2px solid black;
+    width: 150px;
+    font-size: 22px;
+}
+.btn_back:hover{
+    border: 2px solid blue;
+    color: blue;
+    cursor:pointer;
+}
+
+.btn_send{
+    position: absolute;
+    top: 85%;
+    left: 61%;
+    background-color: rgba(0, 0, 0, 0.363);
+    border: 2px solid black;
+    width: 150px;
+    font-size: 22px; 
+
+}
+
+.btn_send:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+    border: 2px solid rgb(0, 255, 21);
+    color: rgb(0, 255, 21);
+    cursor:pointer;
+}

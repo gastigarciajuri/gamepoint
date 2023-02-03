@@ -1,27 +1,63 @@
+
 .navbar{
-   width:100%;
+   width:1245px;
    position:absolute;
-   top:0;
-   left:0;
-   height:90px;
-   background-color:#000000f3;
-   border:6px black solid;
+   top:3%;
+   left:9%;
+   height:74px;
+   background-color: rgba(0, 0, 0, 0.85);
+   border:4px black solid;
 }
+
+.img{
+    width: 121px;
+    height: 119px;
+    position: absolute;
+    top:-40%;
+    left:-10.5%
+}
+
+
+input::placeholder{
+    font-size: 12px;
+    color: white;
+}
+
 
 .items{
     display: flex;
     align-items: center;
+}
+.link { 
+    color:#000000;
+ }
+.link:hover { 
+    color: #ffffff; 
+ }
+.item1{
+    position: absolute;
+    top:2%;
+    left:71%;
+	color: #000000;
+	display: flex;
     text-decoration: none;
 }
 
-.item{
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-    text-decoration: none;
+.item2{
+    position: absolute;
+    top:2%;
+    left:80%;
+	
+	display: flex;
+    outline:none;
+    
+}
+.item3{
+    position: absolute;
+    top:2%;
+    left:89%;
+	color: #000000;
+	display: flex;
 }
 
-.icon{
-    font-size: 40px;
-    text-decoration: none;
-}
+

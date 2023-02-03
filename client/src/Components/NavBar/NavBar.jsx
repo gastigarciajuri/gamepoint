@@ -8,25 +8,26 @@ import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined
 import "./NavBar.css";
 
 export default function NavBar() {
+  
   return (
-    <div>
-      <div className="navbar">
+    <div className="navbar">
+      <div>
         <img src={Logo} alt="Logo" className="img" />
         <SearchBar />
         <div className="items">
-          <div className='item'>
-          <Link to="/cuenta" >
-            <AccountCircleOutlinedIcon className="icon" />
+          <div className='item1'>
+          <Link to="/cuenta" className="link">
+            <AccountCircleOutlinedIcon  style={{ fontSize: 65 }}  />
           </Link>
           </div>
-          <div className='item'>
-          <Link to="/favorites" >
-            <FavoriteBorderOutlinedIcon className="icon" />
+          <div className='item2'>
+          <Link to="/favorites" className="link" >
+            <FavoriteBorderOutlinedIcon  style={{ fontSize:65 }}  />
           </Link>
           </div>
-          <div className='item'>
-          <Link to="/shoppingCart">
-            <ShoppingCartOutlinedIcon className="icon"/>
+          <div className='item3'>
+          <Link to="/shoppingCart" className="link">
+            <ShoppingCartOutlinedIcon  style={{ fontSize: 65 }} />
           </Link>
           </div>
         </div>

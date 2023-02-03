@@ -6,15 +6,15 @@
    left:9%;
    height:74px;
    background-color: rgba(0, 0, 0, 0.85);
-   border:4px black solid;
+   border:2px black solid;
 }
 
 .img{
     width: 121px;
     height: 119px;
     position: absolute;
-    top:-40%;
-    left:-10.5%
+    top:-34%;
+    left:-10%
 }
 
 
@@ -36,8 +36,8 @@ input::placeholder{
  }
 .item1{
     position: absolute;
-    top:2%;
-    left:71%;
+    top:22%;
+    left:72%;
 	color: #000000;
 	display: flex;
     text-decoration: none;
@@ -45,17 +45,17 @@ input::placeholder{
 
 .item2{
     position: absolute;
-    top:2%;
-    left:80%;
-	
+    top:22%;
+    left:81%;
+	color: #000000;
 	display: flex;
     outline:none;
     
 }
 .item3{
     position: absolute;
-    top:2%;
-    left:89%;
+    top:22%;
+    left:90%;
 	color: #000000;
 	display: flex;
 }

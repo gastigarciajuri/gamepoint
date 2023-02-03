@@ -1,8 +1,7 @@
-.container1{
+.card{
     width: 270px;
-    height: 472px;
-    background-color: rgba(0, 0, 0, 0.85);
-    border:4px black solid;
+    height: 380px;
+    border:1px black solid;
     position: absolute;
     top:30%;
     left:5%;
@@ -16,11 +15,11 @@
     height: 254px;
 }
 
-.title_name{
-    color: white;
+.card-title{
+    color: rgb(0, 0, 0);
     position: absolute;
-    top:55%;
-    left: 15%;
+    top:49%;
+    left: 17%;
     width: 181px;
     height: 42px;
     font-size: 22px;
@@ -28,45 +27,45 @@
     text-align: center;
 }
 .title_gnres{
-    color: white;
+    color: rgb(0, 0, 0);
     position: absolute;
-    top:62.5%;
-    left: 15%;
+    top:56%;
+    left: 17%;
     width: 181px;
     height: 42px;
-    font-size: 18px;
+    font-size: 17px;
     align-items: center;
     text-align: center;
 }
 
 .title_rating{
-    color: white;
+    color: rgb(0, 0, 0);
     position: absolute;
-    top:73%;
-    left: 15%;
+    top:69%;
+    left: 17%;
     width: 181px;
     height: 42px;
-    font-size: 18px;
+    font-size: 17px;
     align-items: center;
     text-align: center;
 }
 
 .title_price{
-    color: white;
+    color: rgb(0, 0, 0);
     position: absolute;
-    top:79%;
-    left: 15%;
+    top:76%;
+    left: 17%;
     width: 181px;
     height: 42px;
-    font-size: 18px;
+    font-size: 17px;
     text-align:center;
 }
 
 .btn{
     position: absolute;
-    top: 88%;
-    left: 14%;
-    background-color: rgba(0, 0, 0, 0.363);
+    top: 84%;
+    left: 15.5%;
+    background-color: rgba(0, 0, 0, 0.897);
     border: 2px solid black;
     width: 190px;
     height: 50px;
@@ -75,7 +74,7 @@
 }
 
 .btn:hover{
-    background-color: rgba(0, 0, 0, 0.363);
+    background-color: rgba(0, 0, 0, 0.897);
     border: 2px solid rgb(0, 255, 21);
     color: rgb(0, 255, 21);
     cursor:pointer;

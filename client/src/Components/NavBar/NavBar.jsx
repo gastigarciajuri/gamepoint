@@ -17,17 +17,17 @@ export default function NavBar() {
         <div className="items">
           <div className='item1'>
           <Link to="/cuenta" className="link">
-            <AccountCircleOutlinedIcon  style={{ fontSize: 65 }}  />
+            <AccountCircleOutlinedIcon style={{ fontSize: 40 }}  />
           </Link>
           </div>
           <div className='item2'>
           <Link to="/favorites" className="link" >
-            <FavoriteBorderOutlinedIcon  style={{ fontSize:65 }}  />
+            <FavoriteBorderOutlinedIcon  style={{ fontSize:40 }}  />
           </Link>
           </div>
           <div className='item3'>
           <Link to="/shoppingCart" className="link">
-            <ShoppingCartOutlinedIcon  style={{ fontSize: 65 }} />
+            <ShoppingCartOutlinedIcon  style={{ fontSize: 40 }} />
           </Link>
           </div>
         </div>
